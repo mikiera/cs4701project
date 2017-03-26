@@ -12,4 +12,4 @@ class Noun(object):
 
   def __str__(self):
     return ("Name: " + self.name + "\nDescription: " + self.desc + "\nPacks: " 
-      + str(self.packs))
+      + str(self.packs) + "\n")
