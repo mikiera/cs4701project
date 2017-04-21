@@ -17,8 +17,9 @@ class Noun(object):
     self.packs = p 
 
   def __str__(self):
-    return ("Name: " + self.name + "\nDescription: " + self.desc + "\nPacks: " 
-      + str(self.packs) + "\n")
+    return (self.name + "\nDescription: " + self.desc)
+    # return ("Name: " + self.name + "\nDescription: " + self.desc + "\nPacks: " 
+      # + str(self.packs) + "\n")
 
 
 
@@ -40,12 +41,14 @@ class Adjective(object):
 """ Class Player represents an instance of a Player
   Attributes:
   - name: string, name of the player
-  - hand: list of Noun cards, the player's hand """
+  - hand: list of Noun cards, the player's hand 
+  - ai: bool, if player is an ai """
 
 class Player(object):
-  def __init__(self, name):
+  def __init__(self, name, ai):
     self.name = name
     self.hand = []
+    self.ai = ai
 
   def dealCard(self, card):
     self.hand.append(card)

@@ -1,7 +1,7 @@
 # parse.py 
 # Parses a text file containing a list of cards
 
-from noun import * 
+from gameparts import * 
 
 def parse_packs(packstr):
   """Returns a list containing all comma separated pack elements
@@ -31,7 +31,21 @@ def parse_noun_file(filename):
     desc = line[hyphen + 1: sqbracket1].strip()
     packs = parse_packs(line[sqbracket1 + 1:sqbracket2].strip())
     n = Noun(name, desc, packs)
-    print str(n)
     noun_cards.append(n)
   f.close()
   return noun_cards
+
+
+def parse_adj_file(filename):
+  """Returns a list of Adj cards 
+    filename: name of a list of Adj (of a specific format)"""
+  f = open(filename)
+  cards = []
+  for line in f:
+    colon = line.find(':')
+    name = line[:colon].strip()
+    desc = line[colon+1:].strip()
+    a = Adjective(name, desc)
+    cards.append(a)
+  f.close()
+  return cards
