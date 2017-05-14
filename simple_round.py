@@ -53,7 +53,7 @@ class SimpleRound(object):
       if i % 30 == 0:
         self.shuffleCards()
       print ("\n------------------------------------------------\n\n" + 
-        "We will be starting round " + str(i) + " of " + str(self.rounds) + " rounds.")
+        "We will be starting round " + str(i+1) + " of " + str(self.rounds) + " rounds.")
       adj = self.adjs.pop(0)
       nouns = [self.nouns.pop(0) for j in range(NUM_NOUNS)]
       print "This round, you will all be looking for something that is " +  adj.name + "."
