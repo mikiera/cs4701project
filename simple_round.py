@@ -6,14 +6,14 @@ import parse
 import random
 import csv
 
-NUM_ROUNDS = 3
 NUM_NOUNS = 7
 
 class SimpleRound(object):
   
-  def __init__(self, nouns, adjs):
+  def __init__(self, nouns, adjs, rounds):
     self.nouns = nouns
     self.adjs = adjs
+    self.rounds = rounds
     self.adjsNum = {}
     self.nounsNum = {}
     self.choices = []
@@ -42,18 +42,18 @@ class SimpleRound(object):
     return name 
 
   def writeCSV(self):
-    output = open('./'+ self.name + '.csv', 'w')
+    output = open('./data/'+ self.name + '.csv', 'w')
     writer = csv.writer(output)
     writer.writerows(self.choices)
 
   def playGame(self):
     self.name = self.initGame()
 
-    for i in range(NUM_ROUNDS):
+    for i in range(self.rounds):
       if i % 30 == 0:
         self.shuffleCards()
-      print ("------------------------------------------------\n" + 
-        "We will be starting round " + str(i) + " of " + str(NUM_ROUNDS) + " rounds.")
+      print ("\n------------------------------------------------\n\n" + 
+        "We will be starting round " + str(i) + " of " + str(self.rounds) + " rounds.")
       adj = self.adjs.pop(0)
       nouns = [self.nouns.pop(0) for j in range(NUM_NOUNS)]
       print "This round, you will all be looking for something that is " +  adj.name + "."
@@ -66,9 +66,9 @@ class SimpleRound(object):
       adjNum = self.adjsNum[adj.name]
       nounNum = self.nounsNum[nouns[judgeChoice].name]
       self.choices.append([adjNum, nounNum])
-      print adj.name
-      print nouns[judgeChoice].name
-      print self.choices
+      # print adj.name
+      # print nouns[judgeChoice].name
+      # print self.choices
 
       # add all the adjs/noun cards at the end of their respective decks
       self.adjs.append(adj)
@@ -78,6 +78,7 @@ class SimpleRound(object):
 
 if __name__ == "__main__":
   nouns = parse.parse_noun_file("trim_nouns.txt")
-  adjs = parse.parse_adj_file("trim_adjs.txt") 
-  game = SimpleRound(nouns, adjs)
+  adjs = parse.parse_adj_file("trim_adjs.txt")
+  rounds = int(raw_input("How many rounds will you play? "))
+  game = SimpleRound(nouns, adjs, rounds)
   game.playGame()
