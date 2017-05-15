@@ -95,15 +95,23 @@ def performance(user, ai):
 def run(user):
   model = runNaiveBayes(user)
   testData = getTestData(user) 
-  userRanks = processCSV(user + '-ranks.csv', 0)
+  userRanks = processCSV('./data/' + user + '-ranks.csv', 0)
+
+  scores = []
   for round in testData:
     samples = getVectors(round)
     prob = model.predict_proba(samples)
     adj = round[0]
     aiRanks = getRanking(prob, adj)
     for i in range(len(aiRanks)):
-      aiRanks[i] = round[i + 1]
+      aiRanks[i] += 1
+
     # compare the ai against user rankings 
+    print userRanks, aiRanks
+    score = performance(userRanks, aiRanks)
+    scores.append(score)
+
+  return scores
 
 
 if __name__ == "__main__":
