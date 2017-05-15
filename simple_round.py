@@ -8,6 +8,8 @@ import csv
 
 NUM_NOUNS = 7
 
+
+
 class SimpleRound(object):
   
   def __init__(self, nouns, adjs, rounds):
@@ -39,6 +41,8 @@ class SimpleRound(object):
     print "Hello! Welcome to Priya and Julia's Apples-to-Apples arena!\n"
     name = raw_input("How do we refer to you? ")
     print "Thank you " + name + " for playing our game!\n"
+    gametype = raw_input("Would you like this to be a train or test data set? (r/e)")
+    self.gametype = 'train' if gametype == 'r' else 'test'
     return name 
 
   def writeCSV(self):
@@ -64,8 +68,14 @@ class SimpleRound(object):
 
       # save choices into list 
       adjNum = self.adjsNum[adj.name]
-      nounNum = self.nounsNum[nouns[judgeChoice].name]
-      self.choices.append([adjNum, nounNum])
+      if self.gametype == 'train':
+        nounNums = [self.nounsNum[nouns[judgeChoice].name]]
+      else:
+        nounNames = saveNounNames(nouns)
+        nounNums = [self.nounsNum[i] for i in nounNames]
+      choice = [adjNum]
+      choice.extend(nounNums)
+      self.choices.append(choice)
       # print adj.name
       # print nouns[judgeChoice].name
       # print self.choices
@@ -75,6 +85,12 @@ class SimpleRound(object):
       self.nouns.extend(nouns) 
     
     self.writeCSV()
+
+def saveNounNames(nouns):
+  acc = []
+  for noun in nouns:
+    acc.append(noun.name)
+  return acc 
 
 if __name__ == "__main__":
   nouns = parse.parse_noun_file("trim_nouns.txt")
