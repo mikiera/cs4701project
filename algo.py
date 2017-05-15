@@ -83,7 +83,10 @@ def performance(user, ai):
   score = 0
   for i in range(len(user)):
     weight = 0.1
-    difference = abs(user[i]-ai[i])
+    val_user = user[i]
+    ai_array = np.array(ai)
+    idx_ai = ai_array.tolist().index(val_user)
+    difference = abs(i - idx_ai)
     if i == 0:
       weight = 0.3
     elif i == 1:
