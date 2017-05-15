@@ -113,12 +113,15 @@ def run(user):
     print 'userRanks\n', userRanks 
     print 'aiRanks\n', aiRanks
     score = performance(userRanks[round], aiRanks)
-    print 'score\n', score
+    # print 'score\n', score
     scores.append(score)
+  total = sum(scores)
+  avg = total/len(testData)
 
-  return scores
+  return avg
 
 
 if __name__ == "__main__":
-  scores = run('pb448')
-  print scores
+  avg = run('pb448')
+  print avg
+
