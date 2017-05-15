@@ -1,0 +1,35 @@
+Adorable: lovable, charming, delightful
+Ancient: elderly, old, antique
+Animated: lively, exuberant, spirited
+Arrogant: egotistical, overconfident, conceited
+Boisterous: loud, rambunctious, rowdy
+Casual: easygoing, blase, nonchalant
+Charming: captivating, enchanting, fascinating
+Cheesy: trashy, tawdry, far-fetched
+Colorful: vivid, brilliant, kaleidoscopic
+Crazed: insane, wild, deranged
+Creative: imaginative, artistic, original
+Demanding: difficult, exacting, bothersome
+Desperate: frantic, headlong, reckless
+Easy: effortless,entle, promiscuous
+Feminine: womanly, ladylike, unmanly
+Handsome: attractive, elegant, fine
+Hilarious: funny, witty, amusing
+Important: significant, substantial, momentous
+Nerdy: unhip, uncool, dorky
+Ordinary: usual, common, plain [Basic Set 2001 Printing Forward, Party Set]
+Outrageous: shocking, scandalous, disgraceful
+Principled: conscientious, ethical, scrupulous
+Profound: deep, wise, thoughtful
+Responsible: accountable, obligated, mature
+Rough: scratchy, uneven, jagged
+Sappy:ooey, mushy, romantic
+Sensitive: susceptible, sympathetic, tender
+Smooth: even, level, flat
+Temperamental: moody, irritable, short-tempered
+Timeless: classic, ageless, well-established
+Trustworthy: honest, reliable, unfailing
+Unforgettable: notable, impressive, remarkable
+Unscrupulous: unethical, corrupt, unprincipled
+Visionary: idealistic, prophetic, far-seeing
+Zany: crazy, funny, wacky
