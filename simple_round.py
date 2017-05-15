@@ -48,7 +48,7 @@ class SimpleRound(object):
   def writeCSV(self):
     if self.gametype != 'train':
       self.name += '-test'
-    output = open('./data/'+ self.name + '.csv', 'w')
+    output = open('./data/'+ self.name + '.csv', 'a')
     writer = csv.writer(output)
     writer.writerows(self.choices)
 

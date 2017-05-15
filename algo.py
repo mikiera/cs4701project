@@ -83,7 +83,7 @@ def performance(user, ai):
   score = 0
   for i in range(len(user)):
     weight = 0.1
-    difference = math.abs(user[i]-ai[i])
+    difference = abs(user[i]-ai[i])
     if i == 0:
       weight = 0.3
     elif i == 1:
@@ -95,24 +95,30 @@ def performance(user, ai):
 def run(user):
   model = runNaiveBayes(user)
   testData = getTestData(user) 
+  print 'testData\n', testData
   userRanks = processCSV('./data/' + user + '-ranks.csv', 0)
+  print 'userRanks\n', userRanks
 
   scores = []
-  for round in testData:
-    samples = getVectors(round)
+  for round in range(len(testData)):
+    samples = getVectors(testData[round])
     prob = model.predict_proba(samples)
-    adj = round[0]
+    print 'prob\n', prob
+    adj = testData[round][0]
     aiRanks = getRanking(prob, adj)
     for i in range(len(aiRanks)):
       aiRanks[i] += 1
 
     # compare the ai against user rankings 
-    print userRanks, aiRanks
-    score = performance(userRanks, aiRanks)
+    print 'userRanks\n', userRanks 
+    print 'aiRanks\n', aiRanks
+    score = performance(userRanks[round], aiRanks)
+    print 'score\n', score
     scores.append(score)
 
   return scores
 
 
 if __name__ == "__main__":
-  print "haha"
+  scores = run('pb448')
+  print scores
