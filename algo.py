@@ -58,7 +58,9 @@ def getTestData(username):
     test.append(datapt)
   return test
 
-"""lst is of the form [adj, noun1, noun2, ...] """
+
+""" getVectors returns the noun vectors for ONE round 
+lst is of the form [adj, noun1, noun2, ...] """
 def getVectors(lst):
   nouns = processCSV("NounClassification.csv", 1)
   noun_vecs = []
@@ -67,9 +69,25 @@ def getVectors(lst):
   return noun_vecs
 
 
-if __name__ == "__main__":
-  user = "cs947"
+def getRanking(prob, adj):
+  sorted_idx = np.argsort(prob, axis=0)
+  print sorted_idx
+  return sorted_idx[:, adj]
+
+
+def run(user):
   model = runNaiveBayes(user)
-  X = getTestData(user, 20) 
-  result = classify(model, X)
-  print result
+  testData = getTestData(user) 
+  userRanks = processCSV(user + '-ranks.csv', 0)
+  for round in testData:
+    samples = getVectors(round)
+    prob = model.predict_proba(samples)
+    adj = round[0]
+    aiRanks = getRanking(prob, adj)
+    for i in range(len(aiRanks)):
+      aiRanks[i] = round[i + 1]
+    # compare the ai against user rankings 
+
+
+if __name__ == "__main__":
+  print "haha"
