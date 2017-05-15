@@ -3,17 +3,21 @@ that will be used for the Apples to Apples prediction '''
 
 from sklearn.naive_bayes import MultinomialNB
 import numpy as np
+import csv
 
 """ processCSV takes a csv file, processes the data points inside
 and returns them as a 2D list where each entry has [adj, noun] """
 def processCSV(filename, startLine):
-  file = open('./data/'+ filename + '.csv', 'rb')
-  reader = csv.reader(file)
+  file = open(filename, 'rU')
+  reader = csv.reader(file, dialect=csv.excel_tab)
   output = []
   count = 0 
   for row in reader:
     if count >= startLine:
-      output.append(row)
+      newRow = row[0].split(',')
+      for el in range(len(newRow)):
+        newRow[el] = int(newRow[el])
+      output.append(newRow)
     count += 1
   return output 
 
@@ -21,14 +25,15 @@ def processCSV(filename, startLine):
 """ runNaiveBayes runs the Naive Bayes algorithm on a the data
 points for a single person with name username  """
 def runNaiveBayes(username):
-  nouns = processCSV("noun_features.csv", 1)
+  nouns = processCSV("NounClassification.csv", 1)
   data = processCSV("./data/" + username + ".csv", 0)
-  X = np.array((len(data), len(nouns[0])))
-  Y = np.array((len(data)))
+  X = np.zeros((len(data), len(nouns[0])))
+  Y = np.zeros((len(data)))
 
   # datapt = [adj, noun]
   for idx in range(len(data)): 
-    X[idx] = nouns[data[idx][1]-1]
+    x = nouns[data[idx][1]-1]
+    X[idx, :] = np.array(x)
     Y[idx] = data[idx][0]
 
   # X = np.random.randint(5, size=(6, 100))
@@ -39,13 +44,32 @@ def runNaiveBayes(username):
   return clf
 
 
-""" classify classifies pieces of data based of a given model"""
+""" classify classifies set of data based of a given model"""
 def classify(model, data):
-  return model.predict(X[2])
+  return model.predict_proba(data)
+
+
+def getTestData(username):
+  nouns = processCSV("NounClassification.csv", 1)
+  data = processCSV("./data/" + username + "-test.csv", 0)
+  test = []
+  for datapt in data:
+    # [adj, noun1, noun2, ...]
+    test.append(datapt)
+  return test
+
+"""lst is of the form [adj, noun1, noun2, ...] """
+def getVectors(lst):
+  nouns = processCSV("NounClassification.csv", 1)
+  noun_vecs = []
+  for idx in range(1, len(lst)):
+    noun_vecs.append(nouns[lst[idx]-1])
+  return noun_vecs
 
 
 if __name__ == "__main__":
-  model = runNaiveBayes("cs947")
-  X = np.array([])
+  user = "cs947"
+  model = runNaiveBayes(user)
+  X = getTestData(user, 20) 
   result = classify(model, X)
   print result
