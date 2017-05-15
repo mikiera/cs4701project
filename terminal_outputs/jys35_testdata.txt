@@ -1,0 +1,427 @@
+How many rounds will you play? 20
+Hello! Welcome to Priya and Julia's Apples-to-Apples arena!
+
+How do we refer to you? jys35
+Thank you jys35 for playing our game!
+
+Would you like this to be a train or test data set? (r/e) e
+
+------------------------------------------------
+
+We will be starting round 1 of 20 rounds.
+This round, you will all be looking for something that is Nerdy.
+Here are your nouns: 
+1. Hangnails
+Description: We've fingered the cause of the pain.
+2. Saturn
+Description: Sixth planet from the sun, and the second largest in the solar system. Has a nice ring to it, don't you think?
+3. Puff Daddy
+Description: 1971- , American rap artist. "I'll be Missing You" shot him to stardom; no pun intended.
+4. Chicago
+Description: Third largest city in the United States. Our kind of town.
+5. Doing The Dishes
+Description: You wash, I'll watch.
+6. Worms
+Description: "A man may fish with the worm that hath eat of a king, and eat of the fish that has fed of that worm." -"Hamlet" Shakespeare
+7. Walt Disney
+Description: 1901-1966, the head of some Mickey Mouse company.
+Choose a card (1-7): 2
+
+------------------------------------------------
+
+We will be starting round 2 of 20 rounds.
+This round, you will all be looking for something that is Important.
+Here are your nouns: 
+1. The NRA
+Description: National Rifle Association. They're gunning for your vote.
+2. Canada
+Description: Federated country of North America. The Great White North - eh?
+3. A Honeymoon
+Description: America's top honeymoon spots are Hawaii, Niagara Falls, Las Vegas and Florida. You can get there by air, land, sea ... or shotgun.
+4. Mice
+Description: "The best-laid schemes o' mice an' men ..." -Robert Burns
+5. Going To School
+Description: Secondary education? It's elementary.
+6. Bungee Jumping
+Description: Another sport hanging on by a thread.
+7. My Past
+Description: What's past is past ... unless you're a politician ...
+Choose a card (1-7): 1
+
+------------------------------------------------
+
+We will be starting round 3 of 20 rounds.
+This round, you will all be looking for something that is Responsible.
+Here are your nouns: 
+1. Bill Clinton
+Description: 1946- , popular, yet embattled, 42nd president of the United States.
+2. The Midwest
+Description: America's central plains states. They're not like folks 'round here ...
+3. Democrats
+Description: Their symbol is the donkey, or ass. Insert your own joke here.
+4. The San Andreas Fault
+Description: Geological feature in California stretching 600 miles. Like the state doesn't have enough faults already.
+5. Lawyers
+Description: We'd throw some joke in here, but we're afraid of getting sued.
+6. Berlin
+Description: 1945 - Adolph Hitler's last stand. Bunker ... I mean -hunker down, soldier.
+7. Paying Taxes
+Description: Death or Taxes? Do we have to choose right away?
+Choose a card (1-7): 7
+
+------------------------------------------------
+
+We will be starting round 4 of 20 rounds.
+This round, you will all be looking for something that is Sensitive.
+Here are your nouns: 
+1. Cinco de Mayo
+Description: Marks the victory of the Mexican Army over the French at the Battle of Puebla, in 1862.
+2. Homer Simpson
+Description: Fictional cartoon character created by Matt Groening. D'oh!
+3. Sharks
+Description: Many species living today are similar to those from 100 million years ago. Because change is scary.
+4. The Pyramids
+Description: The Egyptian pyramids were built from about 2700 BC to about 1000 BC. Tut, tut, tut ...
+5. Chimpanzees
+Description: Sure, they're related to us; but they don't write, and they NEVER call!
+6. Redwood Forests
+Description: "From the Redwood Forests to the Gulf Stream Waters/ This land was made for you and me." -Woody Guthrie
+7. Martha Stewart
+Description: 1941-, television personality, magazine editor, and author. Domestic arts are her stock-in-trade.
+Choose a card (1-7): 5
+
+------------------------------------------------
+
+We will be starting round 5 of 20 rounds.
+This round, you will all be looking for something that is Crazed.
+Here are your nouns: 
+1. Yellowstone Park
+Description: Home to 3000 geysers and hot springs. More gas and hot air than Washington, D.C.
+2. Elizabeth Taylor
+Description: 1932- , American actor, noted for her lush beauty, emotional performances and multiple husbands.
+3. Wheat
+Description: Mainly used in flour. World output of wheat is more than 600 million metric tons a year ... so someone's making a lot of dough.
+4. Quentin Terantino
+Description: 1963- , Groundbreaking American director and actor. Nice movies, but not nearly enough blood.
+5. The KKK
+Description: IF they're supposed to be the master race, why do they keep misspelling "Clan"?
+6. Andy Warhol
+Description: 1928-87, American painter and filmmaker, a leader of the pop art movement. Famous for slightly more than 15 minutes.
+7. Milk
+Description: Three glasses a day will give you ... the gratitude of the dairy industry.
+Choose a card (1-7): 5
+
+------------------------------------------------
+
+We will be starting round 6 of 20 rounds.
+This round, you will all be looking for something that is Cheesy.
+Here are your nouns: 
+1. Europe
+Description: The Old Country ... except to people who live there.
+2. Beethoven
+Description: 1770-1827, German composer, considered one of the greatest of the western world.
+3. Atomic Bombs
+Description: The Italian physicist Enrico Fermi succeeded in producing the first nuclear chain reaction in 1942, at the University of Chicago.
+4. Garth Brooks
+Description: 1962- , American country music singer and songwriter. He's got friends in low places.
+5. Saddam Hussein
+Description: 1937-, dictator of Iraq 1979-2003.
+6. Mud
+Description: Water. Dirt. You do the math.
+7. Wimbledon
+Description: Strawberries ... cream ... temper tantrums ...
+Choose a card (1-7): 1
+
+------------------------------------------------
+
+We will be starting round 7 of 20 rounds.
+This round, you will all be looking for something that is Arrogant.
+Here are your nouns: 
+1. The South
+Description: Dixie: South of the Mason-Dixon line that is. They're not like folks 'round here ...
+2. The Gulf War
+Description: January - February, 1991. This six week conflict with Iraq was also known as "Desert Storm."
+3. Top Of A Rollercoaster
+Description: Just remember: what goes UP ...
+4. A Cheap Motel
+Description: No charge for the cockroaches.
+5. Fur
+Description: The characteristic covering of mammals and people with money.
+6. Communists
+Description: "From each, according to their ability, to each according to their need." I need a new Ferrari.
+7. Clark Gable
+Description: 1901-60, American film actor, noted as a romantic lead. Frankly, my dear, he didn't give a damn.
+Choose a card (1-7): 7
+
+------------------------------------------------
+
+We will be starting round 8 of 20 rounds.
+This round, you will all be looking for something that is Unforgettable.
+Here are your nouns: 
+1. The First Day Of School
+Description: "Fear has many eyes." -Cervantes
+2. The Rolling Stones
+Description: British "bad boy" rock band formed in 1962. Still touring?
+3. The 1950s
+Description: Pros: Barbies, barbecues, and bikinis. Cons: McCarthy, the Korean War, television.
+4. Mirrors
+Description: And now, a moment for reflection.
+5. My Bathroom
+Description: "The bathroom was drenched with their splashings" -Aldous Huxley
+6. Challenger Explosion
+Description: "Without a wish, without a will/ I stood upon that silent hill/ and stared into the sky ..." - Ralph Hodgeson
+7. My High School Prom
+Description: As if adolescence isn't awkward and painful enough ...
+Choose a card (1-7): 7
+
+------------------------------------------------
+
+We will be starting round 9 of 20 rounds.
+This round, you will all be looking for something that is Feminine.
+Here are your nouns: 
+1. My Bank Account
+Description: Speaking of theoretical mathematics and unreal numbers ...
+2. Bonbons
+Description: Sweets for the sweet ...
+3. William Shakespeare
+Description: 1564-1616, The English poet and playwright. And all the world IS a stage ...
+4. Piranha
+Description: Carnivorous fish found in rivers of South America. When you feel like a bite ...
+5. Cleopatra
+Description: c. 69-30 BC, Queen of Egypt, noted for love affairs with Julius Caesar and Mark Antony, which came back to bite her in the asp.
+6. Diamonds
+Description: The hard fact: they are just highly refractive crystalline allotropes.
+7. The 1970s
+Description: Pros ... uh ... pros ... uh ... GIVE US A MINUTE, OKAY?
+Choose a card (1-7): 6
+
+------------------------------------------------
+
+We will be starting round 10 of 20 rounds.
+This round, you will all be looking for something that is Profound.
+Here are your nouns: 
+1. Mike Tyson
+Description: 1966- , American heavyweight boxer. Lend him your ear ...
+2. Bad Dogs
+Description: Bad dog, bad dog. What'cha gonna do?
+3. Steven Spielberg
+Description: 1947-, American movie director and producer, and overachiever. From E.T. to Schindler's List... too many to list.
+4. South Africa
+Description: Two oceans, rugged mountains, traditional villages, game sanctuaries, wineries...forget the past and bring on the tourists.
+5. Will Smith
+Description: 1968- , Successful American rap star, TV star and wildly successful motion picture star. He's got it all. We hate him.
+6. The Universe
+Description: Everything. The big "It." Huge. Massive. THAT big.
+7. Apples
+Description: More than 40 million metric tons are produced worldwide every year. How 'bout them apples?
+Choose a card (1-7): 6
+
+------------------------------------------------
+
+We will be starting round 11 of 20 rounds.
+This round, you will all be looking for something that is Ancient.
+Here are your nouns: 
+1. Cow
+Description: Pies - When dried, these "cow chips" are hurled discus-like over great distances. It's true.
+2. Gang Members
+Description: "When you're a Jet, you're a Jet all the way..." -West Side Story
+3. My Hair
+Description: Hair today, gone tomorrow ...
+4. Abraham Lincoln
+Description: 1809-65, 16th U.S. president, led the Union to victory in the American Civil War and abolished slavery. Was assassinated for his efforts.
+5. Having An Operation
+Description: What a cutup! A real stitch.
+6. Public Radio
+Description: "Good morning . . . . . This morning . . . . . . . . . . . .we have Wolfgang . . . Amadeus Mozart . . . for your listening pleasure . . ."
+7. Baked Potatoes
+Description: Hot potato, couch potato, potato head, twice baked, half-baked, ... whatever.
+Choose a card (1-7): 4
+
+------------------------------------------------
+
+We will be starting round 12 of 20 rounds.
+This round, you will all be looking for something that is Easy.
+Here are your nouns: 
+1. Cindy Crawford
+Description: 1966- , American Supermodel. What dreams are made of.
+2. The Marx Brothers
+Description: Chico, Groucho, Harpo, amd sometimes Zeppo. Their 1930s films include Duck Soup and Animal Crackers.
+3. James Bond
+Description: Fictional British secret agent created by English author Ian Fleming. Shaken, but never stirred.
+4. My Body
+Description: Mine is a temple. Specifically, the Temple of Doom ...
+5. The Green Bay Packers
+Description: Twelve time National Football League world champions, beloved by "Cheeseheads" everywhere. Are those brats done yet?
+6. My Future
+Description: "The future's so bright, I gotta wear shades ..." -Timbuk-3
+7. My Job
+Description: Love it or leave it.
+Choose a card (1-7): 7
+
+------------------------------------------------
+
+We will be starting round 13 of 20 rounds.
+This round, you will all be looking for something that is Adorable.
+Here are your nouns: 
+1. A Locker Room
+Description: Steamy atmosphere ... bawdy humor ... sweaty bodies ... HEY! Sounds like Cable TV!
+2. The Indy 500
+Description: Contestants must drive the full 500 miles. Bathroom breaks ARE allowed.
+3. Handcuffs
+Description: "You have the right to remain silent..."
+4. Fidel Castro
+Description: 1927-, Cuban revolutionary and Communist dictator since 1976. He earned a PhD in law in 1950.
+5. A High School Bathroom
+Description: "Fools rush in where angels fear to tread" -Alexander Pope
+6. Socks
+Description: "Black socks, they never get dirty, the longer you wear them the stronger they get." -Bill Harley
+7. Spit
+Description: Ladies and gentlemen, straight from the Salivary Glands ...
+Choose a card (1-7): 6
+
+------------------------------------------------
+
+We will be starting round 14 of 20 rounds.
+This round, you will all be looking for something that is Unscrupulous.
+Here are your nouns: 
+1. A Crawl Space
+Description: Where you'll find something the cat dragged in.
+2. George W. Bush
+Description: 1946- , 43rd president of the United States. The second time ever that the son of a former president was elected to the office. (Basic Set (2001 Printing Forward), Party Set]
+3. Watching Football
+Description: Sheer athletic prowess by players in peak physical condition is a glorious thing to behold. Pass the chips and beer.
+4. Infomercials
+Description: One of these days, one of them may even say something informative.
+5. King Henry VIII
+Description: 1491-1547, King of England, and founder of the Church of England. Six wives, no waiting.
+6. Pigeons
+Description: Birds with small heads, short necks, stout bodies, and an incredible attraction to statues.
+7. Rust
+Description: "Rust never sleeps." -Neil Young
+Choose a card (1-7): 5
+
+------------------------------------------------
+
+We will be starting round 15 of 20 rounds.
+This round, you will all be looking for something that is Zany.
+Here are your nouns: 
+1. The Land Of Oz
+Description: "I've a feeling we're not in Kansas anymore, Toto." -Dorothy, "The Wizard Of Oz"
+2. Whoopie Goldberg
+Description: 1950-, American actor and comedian. Starred in such movies as Ghost, which earned her an Academy Award. Whoopee!
+3. Lollipops
+Description: Sucker!
+4. Stephen King
+Description: 1947- , American author of horror novels, who's sold more than 100 million copies of his books. Talk about frightening ...
+5. Discovering America
+Description: 1492, Christopher Columbus discovered that America was discovered centuries before he arrived.
+6. Barfing
+Description: We didn't want to bring that up ...
+7. Hollywood
+Description: Motion picture and television industry center of the world. Hooray for Hollywood!
+Choose a card (1-7): 4
+
+------------------------------------------------
+
+We will be starting round 16 of 20 rounds.
+This round, you will all be looking for something that is Nerdy.
+Here are your nouns: 
+1. Rappers
+Description: PAENTAL ADVISORY EXPLICIT CONTENT Hasn't seemed to hurt sales...
+2. My Boss
+Description: ... is an idiot. You know it; we know it.
+3. Paris, France
+Description: The governmental, cultural and gastronomic capital of France. Or the world. Just ask the French.
+4. A Used Car Lot
+Description: One of the most honest places around. Honest ...
+5. Parenting
+Description: The process of discovering you are becoming just like YOUR parents.
+6. Attack On Pearl Harbor
+Description: "Yesterday, December 7th, 1941, a date which will live in infamy ..." -Franklin D. Roosevelt
+7. Playing Chess
+Description: Has tantalized many of the world's greatest minds for almost 14 centuries. It just confuses the rest of us.
+Choose a card (1-7): 7
+
+------------------------------------------------
+
+We will be starting round 17 of 20 rounds.
+This round, you will all be looking for something that is Important.
+Here are your nouns: 
+1. Bill Gates
+Description: 1955-, chairman and chief software architect of Microsoft Corporation. A very rich guy.
+2. Earthquakes
+Description: The Richter scale is named after the American seismologist Charles Richter. Did the earth move for you?
+3. A Flat Tire
+Description: "Whaddya mean, there's no spare?"
+4. Firestorms
+Description: Some severe wildfires require more than 10,000 firefighters. And, wouldn't ya know it, some idiot parked in front of the hydrant!
+5. Lucille Ball
+Description: 1911-89, American actor and comedian. You love Lucy? I love Lucy.
+6. Skateboarding
+Description: It's just going downhill ... down stairs ... down ramps ...
+7. Hot Lava
+Description: There's no better way to serve it.
+Choose a card (1-7): 2
+
+------------------------------------------------
+
+We will be starting round 18 of 20 rounds.
+This round, you will all be looking for something that is Responsible.
+Here are your nouns: 
+1. The Renaissance
+Description: Beginning in the 1300s, started in Italy and spread across Europe. Kind of like Espresso bars ...
+2. The Eiffel Tower
+Description: Designed and built by French engineer Alexandre Gustave Eiffel for the Paris World's Fair of 1889.
+3. Money
+Description: "The best things in life are free/ But you can give them to the birds and bees/ Just give me money ..." -Bradford and Gordy
+4. Martin Luther King, Jr.
+Description: 1929-68, American civil rights leader and advocate of nonviolent resistance. Was assassinated for his efforts.
+5. Chains
+Description: Gold or iron: name your shackles.
+6. Morticians
+Description: Why do you hang around with THOSE stiffs ...?
+7. Spiders
+Description: There are more than 34,000 species of spiders. Try not to think about THAT right before bedtime.
+Choose a card (1-7): 3
+
+------------------------------------------------
+
+We will be starting round 19 of 20 rounds.
+This round, you will all be looking for something that is Sensitive.
+Here are your nouns: 
+1. Wall Street
+Description: The financial center of the United States. See also: roller coaster.
+2. Tree Huggers
+Description: "Environmentalists" to the left. "Wackos" to the right.
+3. Celine Dion
+Description: 1968-, Canadian singer whose heart will go on, and on ...
+4. The Beach
+Description: A day at the beach is no day at the beach, ya know?
+5. The Academy Awards
+Description: The statue known as "Oscar" weighs only eight and a half pounds. So why does it carry so much weight?
+6. The 1920s
+Description: Pros: the Jazz Age. Cons: Presidents who look like librarians.
+7. Japan
+Description: An Asian constitutional monarchy. The capital city is Tokyo. Let's see ... sushi, Godzilla, earthquakes ...
+Choose a card (1-7): 2
+
+------------------------------------------------
+
+We will be starting round 20 of 20 rounds.
+This round, you will all be looking for something that is Crazed.
+Here are your nouns: 
+1. Elephants
+Description: The largest living land mammal, with two species: Indian and African. Not counting Dumbo, there are no American elephants.
+2. Custer's Last Stand
+Description: 1866, Little Big Horn. Very big mistake.
+3. Going To The Dentist
+Description: This won't hurt a bit ...
+4. Going To The Gym
+Description: No pain, no gain.
+5. Disneyland
+Description: You've just won the "Apples to Apples(R) Grand Masters Tournament." Where're you gonna go?
+6. Hooligans
+Description: "Hey! Kids! Get outta my yard!"
+7. Pit Bulls
+Description: Any of several crossbreeds of bulldogs with terriers. Or, several radio hosts we could mention.
+Choose a card (1-7): 6
