@@ -73,7 +73,7 @@ def getVectors(lst):
 def getRanking(prob, adj):
   sorted_idx = np.argsort(prob, axis=0)
   print sorted_idx
-  return sorted_idx[:, adj]
+  return sorted_idx[:, adj-1]
 
 
 def performance(user, ai):
@@ -125,6 +125,6 @@ def run(user):
 
 
 if __name__ == "__main__":
-  avg = run('pb448')
+  avg = run('jys35')
   print avg
 
