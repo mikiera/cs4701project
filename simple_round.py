@@ -41,11 +41,13 @@ class SimpleRound(object):
     print "Hello! Welcome to Priya and Julia's Apples-to-Apples arena!\n"
     name = raw_input("How do we refer to you? ")
     print "Thank you " + name + " for playing our game!\n"
-    gametype = raw_input("Would you like this to be a train or test data set? (r/e)")
+    gametype = raw_input("Would you like this to be a train or test data set? (r/e) ")
     self.gametype = 'train' if gametype == 'r' else 'test'
     return name 
 
   def writeCSV(self):
+    if self.gametype != 'train':
+      self.name += '-test'
     output = open('./data/'+ self.name + '.csv', 'w')
     writer = csv.writer(output)
     writer.writerows(self.choices)
