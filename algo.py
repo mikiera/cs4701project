@@ -4,6 +4,7 @@ that will be used for the Apples to Apples prediction '''
 from sklearn.naive_bayes import MultinomialNB
 import numpy as np
 import csv
+import math 
 
 """ processCSV takes a csv file, processes the data points inside
 and returns them as a 2D list where each entry has [adj, noun] """
@@ -73,6 +74,22 @@ def getRanking(prob, adj):
   sorted_idx = np.argsort(prob, axis=0)
   print sorted_idx
   return sorted_idx[:, adj]
+
+
+def performance(user, ai):
+  w0 = 0.3
+  w1 = 0.2
+  w2 = 0.1
+  score = 0
+  for i in range(len(user)):
+    weight = 0.1
+    difference = math.abs(user[i]-ai[i])
+    if i == 0:
+      weight = 0.3
+    elif i == 1:
+      weight = 0.2
+    score += weight*difference
+  return score
 
 
 def run(user):
