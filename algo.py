@@ -5,7 +5,7 @@ from sklearn.naive_bayes import MultinomialNB
 import numpy as np
 
 """ processCSV takes a csv file, processes the data points inside
-and returns them as a 2D list """
+and returns them as a 2D list where each entry has [adj, noun] """
 def processCSV(filename):
   file = open('./data/'+ filename + '.csv', 'rb')
   reader = csv.reader(file)
